@@ -23,19 +23,82 @@
 
   <body>
     <!-- ~~~~~~~~~banner section~~~~~~~~ -->
-    <section class=" pt-20 container mx-auto grid grid-cols-2">
-      <div class="banner-left max-w-[628px] w-[]">
-        <h1 class="text-[80px] font-extrabold leading-[100px] text-[#1C1C1C] mb-3">It's good <br>
+    <section class="container pt-10 mx-auto grid  lg:grid-cols-2 grid-cols-1">
+      <div class="banner-left max-w-[628px] w-[] text-center lg:text-left m-auto">
+        <h1
+          class="text-5xl md:text-[70px] lg:text-[80px] font-extrabold md:leading-20 lg:leading-24 capitalize text-[#1C1C1C] mb-3">
+          It's good <br>
           tea time at The <br> Tea House</h1>
         <p class="text-[#777777] leading-7 text-[18px] mb-7">Tea and Botanical Solutions Supplier Give Optimum
-          <br>Satisfaction To Your Taste Buds.</p>
+          <br>Satisfaction To Your Taste Buds.
+        </p>
         <button class="regular-btn">Explore More <i
             class="fa-solid fa-arrow-right -rotate-45 inline-block"></i></button>
       </div>
-      <div class="banner-right">
+
+      <div class=" relative banner-right flex justify-end items-end">
         <img src="./images/banner.png" alt="">
+        <!-- ~~~~~~~~~ratting box~~~~~~~~ -->
+        <div
+          class="absolute left-[30%] bottom-[3%] bg-white rounded-xl shadow-2xl flex justify-between items-center p-3 gap-5">
+          <img src="./images/Group 5.png" alt="ratting_star">
+          <div class="">
+            <h2 class="font-extrabold  text-3xl text-[#1C1C1C]">5.00</h2>
+            <p class="font-semibold text-[#777777]">Trust Pilot Rating</p>
+          </div>
+        </div>
       </div>
     </section>
+
+    <!-- ~~~~~~~feature section~~~~~~~~~~~~~~ -->
+    <section class=" custom-container container mx-auto pt-36">
+      <!-- ~~~~~feature section header~~~~ -->
+      <div class="text-center">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#1C1C1C] mb-3 md:mb-4 lg:mb-5">Our Featured
+          Products</h1>
+        <p class="text-base leading-7 text-[#777777]">There are many variations of passages of Lorem Ipsum available,
+          but the majority have suffered alteration in
+          some form,by injected humour, or randomised words which don't look even slightly believable.</p>
+      </div>
+      <!-- ~~~~~~~item card~~~~~~~~ -->
+      <div class="  pt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- ~~~~~~card 1~~~~ -->
+        <div
+          class=" bg-linear-to-b from-[#F4F4F4] to-[#f4f4f400] shadow-2xs rounded-xl p-7 items-center text-center cursor-pointer">
+          <img src="./images/tea-1.png" alt="" class="mx-auto mb-7">
+          <h3 class="text-2xl font-extrabold mb-2.5">Milk Tea</h3>
+          <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+        </div>
+
+        <!-- ~~~~~~card 2~~~~ -->
+        <div
+          class=" bg-linear-to-b from-[#F4F4F4] to-[#f4f4f400] shadow-2xs rounded-xl p-7 items-center text-center cursor-pointer">
+          <img src="./images/tea-2.png" alt="" class="mx-auto mb-7">
+          <h3 class="text-2xl font-extrabold mb-2.5">Black Tea</h3>
+          <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+        </div>
+
+        <!-- ~~~~~~card 3~~~~ -->
+        <div
+          class=" bg-linear-to-b from-[#F4F4F4] to-[#f4f4f400] shadow-2xs rounded-xl p-7 items-center text-center cursor-pointer">
+          <img src="./images/tea-3.png" alt="" class="mx-auto mb-7">
+          <h3 class="text-2xl font-extrabold mb-2.5">Lemon Tea</h3>
+          <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+        </div>
+
+        <!-- ~~~~~~card 4~~~~ -->
+        <div
+          class=" bg-linear-to-b from-[#F4F4F4] to-[#f4f4f400] shadow-2xs rounded-xl p-7 items-center text-center cursor-pointer">
+          <img src="./images/tea-4.png" alt="" class="mx-auto mb-7">
+          <h3 class="text-2xl font-extrabold mb-2.5">Green Tea</h3>
+          <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+        </div>
+      </div>
+
+    </section>
+
+
   </body>
 
 </html>
