@@ -2,5 +2,23 @@
 
 *{
   font-family: "Manrope",sans-serif;
-
+}
+body{
+  background-color: #fdfdf1;
+}
+.hero-container{
+  max-width: 1300px;
+  width: 80%;
+  margin:0 auto;
+}
+/* ~~~~~~~~~~~~commos style~~~~~~~~~~ */
+.regular-btn {
+  background: linear-gradient(90deg,#FF8938, #FF0000 );
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  padding: 18px 20px;
+  cursor: pointer;
+  border-radius: 8px;
 }
