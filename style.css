@@ -10,10 +10,14 @@ body {
 
 .custom-container {
   max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+}
+.banner-container {
+  max-width: 1400px;
   width: 90%;
   margin: 0 auto;
 }
-
 /* ~~~~~~~~~~~~commos style~~~~~~~~~~ */
 .regular-btn {
   background: linear-gradient(90deg, #FF8938, #FF0000);
